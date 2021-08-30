@@ -18,7 +18,7 @@ NSLayoutConstant.activate([
 ### Horizontal and vertical constraints
 
 ```swift
-label.top == view.top // Equivilent to label.topAnchor.constraint(equalTo: view.topAnchor)
+label.top == view.top // Equivalent to label.topAnchor.constraint(equalTo: view.topAnchor)
 label.leading == view.leading + 8 // constant
 label.trailing == view.trailing - 8
 label.bottom <= view.bottom // lessThanOrEqual
@@ -39,5 +39,5 @@ view.height >= imageView.height // greaterThanOrEqual
 ```swift
 imageView.edges() + 8 == view // top, leading, bottom, trailing constrants with 8px insets
 imageView.edges([.top, .leading, .bottom]) + 8 == view // Selected edges
-imageView.edges() + UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8) == view // Custom insets for edges
+imageView.edges() + UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8) == view // Different constants for each edge
 ```
