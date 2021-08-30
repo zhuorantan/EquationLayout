@@ -2,7 +2,7 @@
 
 Define AutoLayout constraints with equations and inequalities. Inspired by [Stevia](https://github.com/freshOS/Stevia).
 
-WARNING: This package is for experimental purpose only. It is not designed for production use.
+WARNING: This package is for experimental purposes only. It is not designed for production use.
 
 ## Documentation
 
@@ -24,7 +24,7 @@ label.trailing == view.trailing - 8
 label.bottom <= view.bottom // lessThanOrEqual
 ```
 
-### Width and Height
+### Width and height
 
 ```swift
 imageView.width * 3 == view.width
