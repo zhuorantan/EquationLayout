@@ -32,6 +32,12 @@ imageView.width / 16 == imageView.height / 9 // Aspect ratio
 view.height >= imageView.height // greaterThanOrEqual
 ```
 
+It is very convenient to define complex constraints. For example, to make the width of `imageView` half the width of `view`, but keep an 8px difference:
+
+```swift
+(imageView.width + 8) * 2 == view.width
+```
+
 ### Edges
 
 `edges()` is a convient way to embed a view inside another view.
